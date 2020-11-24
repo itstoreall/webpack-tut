@@ -1,0 +1,28 @@
+{
+  "name": "webpack-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itstoreall/webpack-tut.git"
+  },
+  "keywords": [],
+  "author": "Serhii Stanislav <serhiistanislav@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itstoreall/webpack-tut/issues"
+  },
+  "homepage": "https://github.com/itstoreall/webpack-tut#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.8",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
